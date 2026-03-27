@@ -1,0 +1,57 @@
+{
+  "htmlLang": "en-US",
+  "hero": {
+    "title": "YouTube subscriptions, finally organized",
+    "description": "QuickTube Organizer helps you group your YouTube subscriptions for easy access in the sidebar",
+    "primary": "Install on Chrome",
+    "compareHint": "Drag to compare"
+  },
+  "features": {
+    "label": "Built for people who follow hundreds of channels",
+    "items": [
+      {
+        "image": "/drag.png",
+        "title": "Drag to organize",
+        "text": "Drag channels into categories, reorder them freely, what you see is what you get."
+      },
+      {
+        "image": "/custom.png",
+        "title": "Icons and colors",
+        "text": "Add custom icons and colors so each group is easy to spot at a glance."
+      },
+      {
+        "image": "/multiselect.png",
+        "title": "Multi-select",
+        "text": "Select multiple channels at once for efficient batch operations."
+      }
+    ]
+  },
+  "faq": {
+    "label": "FAQ",
+    "items": [
+      {
+        "question": "Is QuickTube Organizer free?",
+        "answer": "Yes, it's free to use. You can create more than 10 groups and customize icons and colors after purchasing Pro."
+      },
+      {
+        "question": "Which platform does it support?",
+        "answer": "It is currently built as a Chrome extension but will be available for other browsers in the future."
+      },
+      {
+        "question": "Do I need an account to use it?",
+        "answer": "No. There is no separate account, signup flow, or extra service to connect."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Organize your subscriptions in minutes",
+    "description": "Install QuickTube Organizer and make your YouTube sidebar cleaner, calmer, and easier to use.",
+    "primary": "Install on Chrome",
+    "secondary": "Send feedback"
+  },
+  "footer": {
+    "copyright": "QuickTube Organizer. All rights reserved.",
+    "store": "Chrome Web Store",
+    "support": "Support"
+  }
+}

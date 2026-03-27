@@ -1,0 +1,57 @@
+{
+  "htmlLang": "ja-JP",
+  "hero": {
+    "title": "YouTubeの登録チャンネルを、ついに整理",
+    "description": "QuickTube Organizerは、YouTubeの登録チャンネルをグループ化し、サイドバーから簡単にアクセスできるようにします。",
+    "primary": "Chromeにインストール",
+    "compareHint": "ドラッグして比較"
+  },
+  "features": {
+    "label": "何百ものチャンネルを登録しているユーザー向け",
+    "items": [
+      {
+        "image": "/drag.png",
+        "title": "ドラッグして整理",
+        "text": "チャンネルをカテゴリにドラッグして、自由に並べ替えられます。見たままの直感的な操作が可能です。"
+      },
+      {
+        "image": "/custom.png",
+        "title": "アイコンと色",
+        "text": "カスタムアイコンと色を追加して、各グループを一目で分かりやすくできます。"
+      },
+      {
+        "image": "/multiselect.png",
+        "title": "複数選択",
+        "text": "一度に複数のチャンネルを選択して、一括操作ができます。"
+      }
+    ]
+  },
+  "faq": {
+    "label": "よくある質問",
+    "items": [
+      {
+        "question": "QuickTube Organizerは無料ですか？",
+        "answer": "はい、無料で使用できます。Pro版を購入すると、10個以上のグループを作成し、アイコンや色をカスタマイズできるようになります。"
+      },
+      {
+        "question": "どのプラットフォームをサポートしていますか？",
+        "answer": "現在はChrome拡張機能として提供されていますが、将来的には他のブラウザにも対応する予定です。"
+      },
+      {
+        "question": "利用にアカウントは必要ですか？",
+        "answer": "いいえ。個別のアカウント登録手続きや、外部サービスとの連携は一切必要ありません。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "数分で登録チャンネルを整理",
+    "description": "QuickTube Organizerをインストールして、YouTubeのサイドバーをより速く、すっきり、使いやすくしましょう。",
+    "primary": "Chromeにインストール",
+    "secondary": "フィードバックを送信"
+  },
+  "footer": {
+    "copyright": "QuickTube Organizer. All rights reserved.",
+    "store": "Chromeウェブストア",
+    "support": "サポート"
+  }
+}

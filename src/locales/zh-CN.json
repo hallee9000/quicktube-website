@@ -1,0 +1,57 @@
+{
+  "htmlLang": "zh-CN",
+  "hero": {
+    "title": "让 YouTube 订阅列表井然有序",
+    "description": "QuickTube Organizer 帮助您给 YouTube 订阅频道进行分组，以便在侧边栏中轻松访问。",
+    "primary": "安装 Chrome 扩展",
+    "compareHint": "拖动以进行比较"
+  },
+  "features": {
+    "label": "专为关注数百个频道的用户打造",
+    "items": [
+      {
+        "image": "/drag.png",
+        "title": "拖拽整理",
+        "text": "将频道拖入不同分类，自由排序，所见即所得。"
+      },
+      {
+        "image": "/custom.png",
+        "title": "图标和颜色",
+        "text": "添加自定义图标和颜色，让每个分组一目了然。"
+      },
+      {
+        "image": "/multiselect.png",
+        "title": "多选操作",
+        "text": "一次选择多个频道，高效完成批量操作。"
+      }
+    ]
+  },
+  "faq": {
+    "label": "常见问题",
+    "items": [
+      {
+        "question": "QuickTube Organizer 是免费的吗？",
+        "answer": "是的，可以免费使用。购买 Pro 版本后，您可以创建 10 个以上的分组并自定义图标和颜色。"
+      },
+      {
+        "question": "它支持哪些平台？",
+        "answer": "目前仅作为 Chrome 扩展程序提供，未来将支持其他浏览器。"
+      },
+      {
+        "question": "我需要注册账号才能使用吗？",
+        "answer": "不需要。没有独立的账号系统，无需注册，也无需连接任何额外服务。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "只需几分钟即可整理好您的订阅列表",
+    "description": "安装 QuickTube Organizer，让您的 YouTube 侧边栏更清晰、更清爽、更易用。",
+    "primary": "安装 Chrome 扩展",
+    "secondary": "发送反馈"
+  },
+  "footer": {
+    "copyright": "QuickTube Organizer 保留所有权利。",
+    "store": "Chrome 网上应用店",
+    "support": "技术支持"
+  }
+}

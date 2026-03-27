@@ -1,0 +1,57 @@
+{
+  "htmlLang": "de-DE",
+  "hero": {
+    "title": "YouTube-Abonnements, endlich organisiert",
+    "description": "QuickTube Organizer hilft Ihnen, Ihre YouTube-Abonnements für einen einfachen Zugriff in der Seitenleiste zu gruppieren.",
+    "primary": "In Chrome installieren",
+    "compareHint": "Zum Vergleichen ziehen"
+  },
+  "features": {
+    "label": "Entwickelt für Nutzer, die Hunderten von Kanälen folgen",
+    "items": [
+      {
+        "image": "/drag.png",
+        "title": "Per Drag & Drop organisieren",
+        "text": "Ziehen Sie Kanäle in Kategorien und ordnen Sie sie frei an. What you see is what you get."
+      },
+      {
+        "image": "/custom.png",
+        "title": "Symbole und Farben",
+        "text": "Fügen Sie benutzerdefinierte Symbole und Farben hinzu, damit jede Gruppe auf einen Blick erkennbar ist."
+      },
+      {
+        "image": "/multiselect.png",
+        "title": "Mehrfachauswahl",
+        "text": "Wählen Sie mehrere Kanäle gleichzeitig für Stapelverarbeitungen aus."
+      }
+    ]
+  },
+  "faq": {
+    "label": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "question": "Ist QuickTube Organizer kostenlos?",
+        "answer": "Ja, die Nutzung ist kostenlos. Wenn Sie die Pro-Version kaufen, können Sie mehr als 10 Gruppen erstellen sowie Symbole und Farben anpassen."
+      },
+      {
+        "question": "Welche Plattformen werden unterstützt?",
+        "answer": "Es ist derzeit als Chrome-Erweiterung verfügbar, wird aber in Zukunft auch für andere Browser veröffentlicht."
+      },
+      {
+        "question": "Benötige ich ein Konto für die Nutzung?",
+        "answer": "Nein. Es gibt kein separates Konto, keinen Registrierungsprozess und keinen zusätzlichen Dienst, der verknüpft werden muss."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Organisieren Sie Ihre Abonnements in wenigen Minuten",
+    "description": "Installieren Sie QuickTube Organizer und machen Sie Ihre YouTube-Seitenleiste schneller, übersichtlicher und einfacher zu bedienen.",
+    "primary": "In Chrome installieren",
+    "secondary": "Feedback senden"
+  },
+  "footer": {
+    "copyright": "QuickTube Organizer. Alle Rechte vorbehalten.",
+    "store": "Chrome Web Store",
+    "support": "Support"
+  }
+}
