@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { getAssetPath } from '../content/siteContent';
 
 export default function SidebarComparison({ content }) {
   const [position, setPosition] = useState(30);
@@ -61,14 +62,14 @@ export default function SidebarComparison({ content }) {
         onPointerDown={handlePointerDown}
       >
         <img
-          src="/before.jpg"
+          src={getAssetPath('/before.jpg', window.location.pathname)}
           alt="QuickTube after organization"
           className="block h-full w-full select-none object-cover object-center overflow-hidden rounded-3xl"
           draggable="false"
         />
 
         <img
-          src="/after.jpg"
+          src={getAssetPath('/after.jpg', window.location.pathname)}
           alt="QuickTube before organization"
           className="absolute top-0 left-0 block h-full w-auto max-w-none select-none object-cover object-left overflow-hidden rounded-3xl"
           draggable="false"

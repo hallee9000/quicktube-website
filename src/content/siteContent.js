@@ -45,10 +45,14 @@ function getBaseSegments(pathname = '/') {
   return localesBySlug[lastSegment?.toLowerCase()] ? segments.slice(0, -1) : segments;
 }
 
+function getBasePrefix(pathname = '/') {
+  const baseSegments = getBaseSegments(pathname);
+  return baseSegments.length ? `/${baseSegments.join('/')}` : '';
+}
+
 export function getLocalePath(locale, pathname = '/') {
   const slug = localeSlugs[locale];
-  const baseSegments = getBaseSegments(pathname);
-  const prefix = baseSegments.length ? `/${baseSegments.join('/')}` : '';
+  const prefix = getBasePrefix(pathname);
   return locale === defaultLanguage ? `${prefix || ''}/` : `${prefix}/${slug}/`;
 }
 
@@ -56,4 +60,10 @@ export function getLocaleFromPath(pathname) {
   const segments = pathname.toLowerCase().split('/').filter(Boolean);
   const slug = segments.at(-1);
   return localesBySlug[slug] ?? null;
+}
+
+export function getAssetPath(assetPath, pathname = '/') {
+  const prefix = getBasePrefix(pathname);
+  const normalizedAssetPath = assetPath.replace(/^\/+/, '');
+  return `${prefix}/${normalizedAssetPath}`;
 }

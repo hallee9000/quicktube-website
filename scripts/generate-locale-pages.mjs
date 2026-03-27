@@ -17,10 +17,9 @@ for (const locale of localeFiles) {
     await readFile(path.join(localesDir, `${locale}.json`), 'utf8'),
   );
 
-  const localizedHtml = baseHtml.replace(
-    '<html lang="en">',
-    `<html lang="${localeJson.htmlLang}">`,
-  );
+  const localizedHtml = baseHtml
+    .replace('<html lang="en">', `<html lang="${localeJson.htmlLang}">`)
+    .replaceAll('./assets/', '../assets/');
 
   const targetDir = path.join(distDir, slug);
   await mkdir(targetDir, { recursive: true });

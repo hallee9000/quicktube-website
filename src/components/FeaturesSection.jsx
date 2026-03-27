@@ -1,3 +1,5 @@
+import { getAssetPath } from '../content/siteContent';
+
 export function FeaturesSection({ content }) {
   return (
     <section className="section-shell">
@@ -13,7 +15,11 @@ export function FeaturesSection({ content }) {
               key={item.title}
               className={`bg-white rounded-3xl shadow-sm p-6 md:p-5`}
             >
-              <img src={item.image} alt={item.title} className="w-full h-auto mb-4 rounded-xl border border-ink/5" />
+              <img
+                src={getAssetPath(item.image, window.location.pathname)}
+                alt={item.title}
+                className="w-full h-auto mb-4 rounded-xl border border-ink/5"
+              />
               <div>
                 <h3 className="mb-1 text-xl font-bold">{item.title}</h3>
                 <p className="leading-snug text-ink/60">{item.text}</p>
