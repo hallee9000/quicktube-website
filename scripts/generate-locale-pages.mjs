@@ -19,7 +19,9 @@ for (const locale of localeFiles) {
 
   const localizedHtml = baseHtml
     .replace('<html lang="en">', `<html lang="${localeJson.htmlLang}">`)
-    .replaceAll('./assets/', '../assets/');
+    .replaceAll('./assets/', '../assets/')
+    .replaceAll('./icon.svg', '../icon.svg')
+    .replaceAll('./quicktube-og.jpg', '../quicktube-og.jpg');
 
   const targetDir = path.join(distDir, slug);
   await mkdir(targetDir, { recursive: true });
